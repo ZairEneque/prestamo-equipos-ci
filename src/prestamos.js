@@ -1,5 +1,5 @@
 function registrarPrestamo(stockActual, cantidadSolicitada) {
-  if (typeof cantidadSolicitada !== 'number' || cantidadSolicitada <= 0) {
+  if (typeof cantidadSolicitada !== 'number' || cantidadSolicitada <= 5) {
     throw new Error('La cantidad solicitada debe ser mayor a cero');
   }
   if (stockActual <= 0 || cantidadSolicitada > stockActual) {
@@ -9,3 +9,5 @@ function registrarPrestamo(stockActual, cantidadSolicitada) {
 }
 
 module.exports = { registrarPrestamo };
+
+
