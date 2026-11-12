@@ -1,0 +1,13 @@
+{
+  "name": "prestamo-equipos-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/prestamos.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
